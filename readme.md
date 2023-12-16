@@ -20,7 +20,7 @@ print_header(logger, "My App")
 ### Workers
 Workers are simple objects that extend a common class and point to a thread's main function.
 
-A short example can be found in '[my_app/workers/example.py](my_app/workers/example.py)'.
+A short example can be found in '[app/my_app/workers/example.py](app/my_app/workers/example.py)'.
 
 If you want to add your own, you just need to edit the following lines in '[app/app.py](app/app.py)' to include your own.
 ```python
