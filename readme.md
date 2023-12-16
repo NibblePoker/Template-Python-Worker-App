@@ -2,9 +2,10 @@
 Template for a simple threaded worker-based applications in Python.
 
 This template has successfully been used internally for "[nibblepoker.lu](https://nibblepoker.lu)" since 2021
-and has finally been made public for easier referencing and usage in future projects.<br>
-Feel free to use it and improve upon it if you want, it's totals at around 200-300 LoC at most and is quite easy
-to modify.
+and has finally been made public for easier referencing and usage in future projects.
+
+The whole demo totals at around 300 LoC and is quite easy to modify.<br>
+It can also be taken appart and re-incorporated in other project freely due to the very permissive license.
 
 
 ## Customization
