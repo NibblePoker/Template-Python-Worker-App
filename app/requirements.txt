@@ -1,0 +1,3 @@
+# /!\ If you need to interact with MariaDB /!\
+# See https://stackoverflow.com/questions/73244027/character-set-utf8-unsupported-in-python-mysql-connector for the version
+# mysql-connector-python==8.0.29

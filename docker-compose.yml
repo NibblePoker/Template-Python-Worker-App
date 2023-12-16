@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  threaded_worker_app:
+    container_name: threaded-worker-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # User and group IDs under which the app runs and who owns the app's directory.
+        # * May be left as 0 if running on Windows or NTFS volumes, see the main readme for more info !
+        - BUID=1000
+        - BGID=1000
+    volumes:
+      - ./config.json:/config.json:ro
