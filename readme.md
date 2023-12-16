@@ -1,5 +1,10 @@
 # NibblePoker's Python Worker App Template
-Template for a threaded worker-based applications in Python.
+Template for a simple threaded worker-based applications in Python.
+
+This template has successfully been used internally for "[nibblepoker.lu](https://nibblepoker.lu)" since 2021
+and has finally been made public for easier referencing and usage in future projects.<br>
+Feel free to use it and improve upon it if you want, it's totals at around 200-300 LoC at most and is quite easy
+to modify.
 
 
 ## Customization
